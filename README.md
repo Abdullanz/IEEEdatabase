@@ -1,7 +1,7 @@
 README v0.0 / 08 SEP 2017
 # Coursework Database project
 
-A website owned by the IEEE organization with an embedded database that is
+A website owned by the IEEE WVU student club with an embedded database that is
 build on a windows server, this project started in Fall 2017
  
 
