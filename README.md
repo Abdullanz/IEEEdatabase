@@ -56,7 +56,7 @@ Abdullah Najjar
 
 
 ## License
-
+Apache License Version 2.0
 
 ## Acknowledgments
 
