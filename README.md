@@ -53,6 +53,7 @@ Give an example
 
 ## Authors
 Abdullah Najjar
+Troy Pallay
 
 
 ## License
