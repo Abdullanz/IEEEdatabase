@@ -36,6 +36,17 @@
     height: 6%;
     margin-top: 2%;
     margin-right: 2%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+
+    transition-timing-function: linear;
+    transition-duration: .3s;
+    
+}
+
+#headerLoginButton:hover {
+    
+    background-color: #545353;
     
 }
 
@@ -100,44 +111,51 @@
 
 #aboutWrapper {
 
+    display:flex;
+    align-content: stretch;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
     background-color: #efefef;
     width: 100%;
-    height: 90%;
+    height: 100%;
 
 }
 
 #titleLogo {
 
+    order: 1;
+    width: 80%;
+    margin-top: 5%;
     text-align: center;
-    float: top;
-
-}
-
-.inline {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25vh;
 
 }
 
 #appPic {
 
+    order: 2;
     width: 30%;
 
 }
 
 #aboutText {
 
+    order: 2;
     width: 40%;
 
 }
 
 #rulesWrapper {
 
+    display:flex;
+    align-content: stretch;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
     width: 100%;
-    height: 90%;
+    height: 100%;
 
 }
 
