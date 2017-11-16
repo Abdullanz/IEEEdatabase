@@ -1,0 +1,182 @@
+.containsText {
+
+    font-family: Arial, Helvetica, sans-serif
+
+}
+
+#headerWrapper {
+
+    display:flex;
+    flex-direction: column;
+    align-content: stretch;
+    height: 100%;
+    background-color: black;
+
+
+
+}
+
+.headerItem {
+
+    color: white;
+
+}
+
+#headerCornerLogo {
+
+    order: 1;
+
+}
+
+#headerLoginButton {
+
+    order: 1;
+    align-self: flex-end;
+    width: 10%;
+    height: 6%;
+    margin-top: 2%;
+    margin-right: 2%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+
+    transition-timing-function: linear;
+    transition-duration: .3s;
+
+}
+
+#headerLoginButton:hover {
+
+    background-color: #545353;
+
+}
+
+.button {
+
+    background-color: transparent;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    color: white;
+    border: solid;
+    border-color: white;
+    overflow: hidden;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+    height: 100%;
+
+}
+
+#headerSearchBox {
+
+    order: 3;
+    margin: auto;
+
+}
+
+#searchBox {
+
+    width: 100%;
+    box-sizing: border-box;
+    border: 4px solid #ccc;
+    border-radius: 4px;
+    font-size: 32px;
+    background-color: transparent;
+    padding: 8px 20px 8px 20px;
+
+    transition-timing-function: linear;
+    transition-duration: .3s;
+
+}
+
+#searchBox:hover {
+
+    background-color: #545353;
+
+}
+
+#searchBox:focus {
+
+    background-color: #545353;
+
+}
+
+#headerSubmitBox {
+
+    order: 4;
+    align-self: flex-start;
+    margin-left: 5%;
+    margin-bottom: 7%;
+
+}
+
+#aboutWrapper {
+
+    display:flex;
+    align-content: stretch;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    background-color: #efefef;
+    width: 100%;
+    height: 100%;
+
+}
+
+#titleLogo {
+
+    order: 1;
+    width: 80%;
+    margin-top: 5%;
+    text-align: center;
+
+}
+
+#appPic {
+
+    order: 2;
+    width: 30%;
+
+}
+
+#aboutText {
+
+    order: 2;
+    width: 40%;
+
+}
+
+#rulesWrapper {
+
+    display:flex;
+    align-content: stretch;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: 100%;
+
+}
+
+#rulesList {
+
+    width: 40%;
+
+}
+
+#tablePic {
+
+    width: 40%;
+
+}
+
+#footer {
+
+    clear: both;
+    background-color: black;
+    margin: auto;
+    text-align: center;
+    color: white;
+
+}

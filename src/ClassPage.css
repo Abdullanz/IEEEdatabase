@@ -1,0 +1,64 @@
+#main {
+  padding: none;
+  margin: none;
+}
+#navbar {
+
+}
+#sidebar {
+  margin-right: 100px;
+  min-height: 100vh;
+  width: 15vw;
+  background-color: black;
+  clear: left;
+  float: left;
+}
+
+#footer {
+clear: both;
+}
+
+#galakse {
+  margin-top: 15px;
+  margin-left: 30px;
+  color: white;
+}
+
+#major {
+  margin-top: 8px;
+  margin-left: 45px;
+  color: white;
+}
+
+#home {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-left: 75px;
+  color: white;
+}
+
+#bars {
+  margin-top: 15px;
+  margin-left: 165px;
+  color: white;
+}
+
+#downarrow {
+  margin-left: 5px;
+  color: white;
+}
+
+.courses {
+  list-style-type: none;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-left: 17px;
+  color: white;
+}
+
+.course {
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: white;
+}
