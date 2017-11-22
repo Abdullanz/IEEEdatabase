@@ -1,0 +1,159 @@
+#main {
+  padding: none;
+  margin: none;
+  position: relative;
+}
+
+#navbar {
+
+}
+
+#sidebar {
+  min-height: 100vh;
+  width: 195px;
+  background-color: black;
+  clear: left;
+  float: left;
+}
+
+#dropdown {
+  background-color: black;
+  top: 30px;
+  left: 0px;
+  position: absolute;
+  display: none;
+  z-index: 1;
+}
+
+#footer {
+  clear: both;
+}
+
+#galakse {
+  margin-top: 15px;
+  margin-left: 30px;
+  color: white;
+}
+
+#selected-major {
+  text-align: center;
+  margin-top: 8px;
+  color: white;
+}
+
+#home {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-left: 75px;
+  color: white;
+}
+
+#search {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 450px;
+  margin-top: 50px;
+  margin-left: 300px;
+}
+
+#bars {
+  margin-top: 15px;
+  margin-left: 165px;
+  color: white;
+}
+
+#course-arrow {
+  margin-left: 5px;
+  color: white;
+}
+
+#lab-arrow {
+  margin-left: 5px;
+  color: white;
+}
+
+#selected-course {
+  text-align: center;
+  margin-top: 35px;
+  color: black;
+}
+
+#majors {
+  list-style-type: none;
+  margin-top: 5px;
+  margin-left: 0px;
+  padding-left: 0px;
+  color: white;
+  z-index: inherit;
+}
+
+#courses {
+  list-style-type: none;
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  color: white;
+}
+
+#courses span {
+  font-size: 12px;
+  margin-left: 57px;
+}
+
+#labs {
+  list-style-type: none;
+  margin-top: 5px;
+  margin-left: 0px;
+  padding-left: 0px;
+  color: white;
+}
+
+#labs span {
+  font-size: 12px;
+  margin-left: 75px;
+}
+
+#professors {
+  width: 550px;
+  margin-top: 0px;
+  margin-left: 250px;
+}
+
+.major {
+  font-size: 10px;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 195px;
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-bottom: 5px;
+  padding-left: 0px;
+  color: white;
+  z-index: inherit;
+}
+
+.major:hover {
+  background-color: #0099cc;
+}
+
+.course, .lab {
+  font-size: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 195px;
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+  color: white;
+  display: none;
+}
+
+.professor {
+
+}

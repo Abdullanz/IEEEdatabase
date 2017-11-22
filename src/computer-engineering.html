@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Galakse</title>
+        <script src = "https://use.fontawesome.com/d948b3451b.js"></script>
+        <script type = "text/javascript" src = "computer-engineering.js"></script>
+        <link rel = "stylesheet" type = "text/css" href = "computer-engineering.css">
+    </head>
+    <body>
+      <div id = "main">
+        <div id = "dropdown" onmouseover = "dropdownHoverEnter()" onmouseout = "dropdownHoverLeave()">
+          <ul id = "majors">
+            <li class = "major">Electrial Engineering</li>
+            <li class = "major">Industrial Engineering</li>
+            <li class = "major">Mathematics</li>
+            <li class = "major">Mechanical Engineering</li>
+            <li class = "major">Physics</li>
+          </ul>
+        </div>
+        <div id = "sidebar">
+          <i id = "bars" class = "fa fa-bars" aria-hidden = "true" onmouseover = "barsHoverEnter()" onmouseout = "barsHoverLeave()"></i>
+          <h1 id = "galakse">galakse</h1>
+          <h6 id = "selected-major">Computer Engineering</h6>
+          <a id = "home" href = "file:///home/xraverz/Documents/IEEE/IEEEdatabase/src/main-page.html">HOME</a>
+          <ul id = "courses">
+            <span>COURSES</span><i id = "course-arrow" class = "fa fa-caret-right" aria-hidden = "true" onclick = "toggleCourses()"></i>
+            <li class = "course" value = "271" onclick = "select(271)">CPE 271 - Introduction to Digital Logic Design</li>
+            <li class = "course" value = "310" onclick = "select(310)">CPE 310 - Microprocessor Systems</li>
+            <li class = "course" value = "312" onclick = "select(312)">CPE 312 - Microcomputer Structures and Interfacing</li>
+            <li class = "course" value = "435" onclick = "select(435)">CPE 435 - Computer Incident Response</li>
+            <li class = "course" value = "442" onclick = "select(442)">CPE 442 - Introduction to Digital Computer Architecture</li>
+            <li class = "course" value = "462" onclick = "select(462)">CPE 462 - Wireless Networking</li>
+          </ul>
+          <ul id = "labs">
+            <span>LABS</span><i id = "lab-arrow" class = "fa fa-caret-right" aria-hidden = "true" onclick = "toggleLabs()"></i>
+            <li class = "lab" value = "272" onclick = "select(272)">CPE 272 - Digital Logic Laboratory</li>
+            <li class = "lab" value = "311" onclick = "select(311)">CPE 311 - Microprocessor Laboratory</li>
+            <li class = "lab" value = "313" onclick = "select(313)">CPE 313 - Microcomputer Structures and Interfacing Laboratory</li>
+          </ul>
+        </div>
+          <input id = "search" placeholder = "Search selected course...">
+          <h6 id = "selected-course"></h6>
+          <select id = "professors">
+            <option class = "professor">Klinkhachorn</option>
+            <option class = "professor">Nutter</option>
+          </select>
+      </div>
+    </body>
+</html>
